@@ -1,0 +1,5 @@
+10.times do |k|
+  if Input.mousePush?(M_LBUTTON)
+   Window.drawAlpha(x, y, image[a[]], 100)
+   
+  end
